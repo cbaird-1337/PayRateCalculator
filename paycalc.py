@@ -10,5 +10,6 @@ r = float(rate)
 if h > 40:
     overtime = (h-40)
     overtimeRate = overtime * (1.5*r)
-  
+
+#output calculation results of pay * rate
 print (overtimeRate + (r*40))
